@@ -5,10 +5,10 @@ import community_card
 import utils
 import db
 
-#データベースの接続設定
-database = 'gto'
-user = 'postgres'
-password = 'eng1969'
+#PostgreSQLの接続設定
+database = ""
+user = ""
+password = ""
 
 paths = utils.get_file_paths()
 
