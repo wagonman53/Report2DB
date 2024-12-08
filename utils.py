@@ -36,7 +36,7 @@ def get_file_paths():
 
 
 def get_action_columns(df):
-    keywords = ["BET","RAISE","CALL","FOLD"]
+    keywords = ["BET","RAISE","CALL","FOLD","CHECK"]
 
     columns = []
     for col in df.columns:
@@ -49,7 +49,7 @@ def get_action_columns(df):
 
 def check_position(df, case_sensitive=False):
     columns = df.columns.tolist()
-    keywords = ["BET","RAISE","CALL","FOLD"]
+    keywords = ["BET","RAISE","CALL","FOLD","CHECK"]
     
     if not case_sensitive:
         columns = [col.lower() for col in columns]
