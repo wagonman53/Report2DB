@@ -1,6 +1,4 @@
-import os
 from pathlib import Path
-
 
 def get_file_paths():
     # reportフォルダのパスを取得

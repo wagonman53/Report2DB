@@ -20,7 +20,8 @@ EQBはポーカーの分析において強力な特徴量ですが、Piosolver�
    - 例：`"AggregatedReport_2024-11-25_23-42-13"` → `"BBvsBTN3bet flop"`
 
 4. プログラムの実行:
-   - main.pyのPostgreSQL設定変数に値を入力して実効してください
+   - .nev.exampleにDB接続情報を記載して.envにファイル名を変更
+   - .main.pyを実行
 
 ## 追加される特徴量
 

@@ -59,4 +59,4 @@ for folder_name, folder_paths in paths.items():
         df = bucket.get_bucket_action(df,ip_hand,action_cols,"IP","EQ_rank")
         df = bucket.get_bucket_action(df,ip_hand,action_cols,"IP","Hand_rank")
 
-    db.save_table(df=df,table_name=folder_name,database=database,user=user,password=password)
+    db.save_table(df=df,table_name=folder_name)
